@@ -1,0 +1,46 @@
+@font-face{
+    font-family: 'Another Danger';
+    src: url("Another Danger - Demo.otf");
+}
+
+@font-face {
+    font-family:'Ndot-55';
+    src: url('Ndot-55.otf');
+}
+
+
+h1{
+    color:#cfd4dee1;
+    font-family: 'Ndot-55';
+    
+}
+html,body{
+    text-align:left;
+    text-decoration:rgba(218, 189, 204, 0.09);
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(24, 24, 24, 0.893);
+}
+
+ body,text{
+    border:rgba(142, 142, 164, 0.86);
+ }
+ h2{
+    color:rgba(49, 155, 0, 0.91);
+    font-family: 'Another Danger';
+    font-size: 22px;
+    text-transform: capitalize;
+ }
+ #hero{
+    color:rgba(47, 213, 35, 0.91);
+    font-family: 'Courier New', monospace;
+    font-size: 80px;
+    text-transform: capitalize;
+    font-family: 'Another Danger';
+ }
+ 
+h3{
+    color:rgba(47, 213, 35, 0.91);
+    font-size: 80px;
+    text-transform: capitalize;
+    font-family: 'Another Danger';
+}
