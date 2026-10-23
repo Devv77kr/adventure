@@ -1,0 +1,25 @@
+@mixin flexCentre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    background-color: #580ea3; // Added background color here
+    border: 2px solid rgb(12, 1, 22); // Fixed border syntax
+    @include flexCentre();
+
+    section {
+        height: 50%;
+        width: 50%;
+        background-color: rgb(213, 141, 46);
+        @include flexCentre(); // Optional: centers the h1 inside section
+    }
+
+    h1 {
+        font-family: 'Times New Roman', Times, serif;
+        color: blue;
+    }
+} // Added missing closing brace

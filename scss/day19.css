@@ -1,0 +1,21 @@
+main {
+  height: 100%;
+  width: 100%;
+  background-color: #580ea3;
+  border: 2px solid rgb(12, 1, 22);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main section {
+  height: 50%;
+  width: 50%;
+  background-color: rgb(213, 141, 46);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main h1 {
+  font-family: "Times New Roman", Times, serif;
+  color: blue;
+}/*# sourceMappingURL=day19.css.map */

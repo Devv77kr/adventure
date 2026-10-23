@@ -1,0 +1,72 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+   
+
+    section{
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+        flex-grow: 1;
+        border: 5px solid black;
+        transition: all 0.7s cubic-bezier(0.19, 1, 0.320, 1);
+        cursor: pointer;
+    }
+    
+
+    section:hover{
+        flex-grow: 3.5;
+    }
+
+
+
+
+
+    section:nth-child(1){
+        background-image: url(ironaman.jpeg);
+        background-position: center;
+        background-size: cover;
+    }
+
+     section:nth-child(2){
+        background-image: url(thonas.jpeg);
+        background-position: center;
+        background-size: cover;
+    }
+
+     section:nth-child(3){
+        background-image: url(batman.jpeg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+     section:nth-child(4){
+        background-image: url(Loki.jpeg);
+        background-position: center;
+        background-size: cover;
+
+}
+    section:nth-child(5){
+        background-image: url(joker.jpeg);
+        background-position: center;
+        background-size: cover;
+
+
+
+}
+
+
+}
