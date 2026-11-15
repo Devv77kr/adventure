@@ -1,0 +1,41 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #0f0101;
+    color: rgb(232, 229, 229);
+}
+
+#main {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+.cursor {
+    height: 30px;
+    width: 30px;
+    background-color: rgb(236, 233, 233);
+    border-radius: 90%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    mix-blend-mode: difference;
+    justify-content: center;
+    transition: all linear 0.1s;
+    
+}
+
